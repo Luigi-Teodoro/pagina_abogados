@@ -1,0 +1,131 @@
+<body>
+    <div class="banner">
+        <div class="logo">
+            LOGO
+        </div>
+        <div class="content">
+            <div class="subtitle1">Consultoría</div>
+            <div class="title">MAGISTER STAFF SAC</div>
+            <div class="subtitle2">STAFF DE ABOGADOS</div>
+        </div>
+    </div>
+    <div class="linea-amarilla"></div>
+</body>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+        font-family: Arial, sans-serif;
+    }
+
+    .banner {
+        background-color: #9e0f13;
+        color: white;
+        padding: 10px 40px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 40px;
+        border-bottom: 2px solid #dba827;
+    }
+
+    .logo {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .logo-symbol {
+        font-size: 24px;
+        display: block;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        font-size: 44px;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 634;
+        font-style: normal;
+        letter-spacing: 1px;
+    }
+
+    .subtitle2 {
+        font-size: 26px;
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 699;
+        font-style: normal;
+        letter-spacing: 1px;
+    }
+
+    .subtitle1 {
+        font-size: 20px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 400;
+    }
+
+    .linea-amarilla {
+        height: 19px;
+        background-color: #760b13;
+        width: 100%;
+        /* Puedes ajustar el ancho para que no ocupe todo el espacio */
+        margin: 0px auto 0 auto;
+        /* Separa la línea del texto y la centra */
+        border-radius: 3px;
+    }
+
+    @media (max-width: 900px) {
+    .banner {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+        padding: 16px 16px;
+        text-align: left;
+    }
+    .content {
+        align-items: flex-start;
+    }
+    .title {
+        font-size: 32px;
+    }
+    .subtitle2 {
+        font-size: 20px;
+    }
+    .subtitle1 {
+        font-size: 16px;
+    }
+    .logo {
+        font-size: 12px;
+    }
+    .linea-amarilla {
+        height: 10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .banner {
+        padding: 10px 4vw;
+        gap: 10px;
+    }
+    .title {
+        font-size: 22px;
+    }
+    .subtitle2 {
+        font-size: 14px;
+    }
+    .subtitle1 {
+        font-size: 12px;
+    }
+    .logo {
+        font-size: 10px;
+    }
+    .linea-amarilla {
+        height: 6px;
+    }
+}
+</style>

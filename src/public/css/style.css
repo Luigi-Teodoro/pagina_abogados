@@ -1,0 +1,8 @@
+.carousel-inner img {
+    max-height: 480px;   /* Ajusta este valor según lo que necesites */
+    object-fit: cover;   /* Mantiene la proporción y recorta si es necesario */
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
